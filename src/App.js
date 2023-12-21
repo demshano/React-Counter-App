@@ -1,11 +1,13 @@
 import { useState } from 'react';
-import './index.css';
+
 export function App()
 {
 
     const [count, setCount] = useState(0);
 
 return(
+
+    
         
     <div className="text-center">
     <h1 className="text-pink-300 text-5xl py-8 font-bold">React Counter App</h1>
@@ -21,6 +23,7 @@ return(
   
     </div>
   </div>
+
   
         
     )
